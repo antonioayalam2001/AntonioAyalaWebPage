@@ -3,6 +3,12 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      invert: {
+        50: "56%"
+      },
+      sepia: {
+        50 : '50%'
+      },
       colors: {
         primary: "#0e000f",
         secondary: "#ee5aba",

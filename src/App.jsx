@@ -1,5 +1,5 @@
 import styles from "./helpers/styleTailwind.js";
-import {AboutMe, Experience, Footer, Hero, NavBar, Services, Values} from "./components/";
+import {AboutMe, Experience, Footer, Hero, NavBar, Projects, Services, Values} from "./components/";
 
 function App() {
     return (
@@ -24,6 +24,7 @@ function App() {
                     <Services/>
                     <AboutMe/>
                     <Experience/>
+                    <Projects/>
                     <Footer/>
                 </div>
             </section>

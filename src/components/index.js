@@ -5,6 +5,7 @@ import {NavBar} from "./NavBar";
 import {Services} from "./Services.jsx";
 import {Experience} from "./Experience.jsx";
 import {Values} from "./Values.jsx";
+import {Projects} from "./Projects.jsx";
 
 export {
     AboutMe,
@@ -13,5 +14,6 @@ export {
     Hero,
     NavBar,
     Services,
-    Values
+    Values,
+Projects
 }

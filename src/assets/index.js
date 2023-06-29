@@ -16,7 +16,7 @@ import code from "./code.png";
 import tony from "./tony.jpg";
 import whatsapp from "./whatsapp.svg";
 import mail from "./mail.svg";
-
+import github from "./github.png"
 // Icons
 import css3 from "./icons/css3.png";
 import git from "./icons/git.png";
@@ -31,6 +31,11 @@ import sass from "./icons/sass.png";
 import xmlfile from "./icons/xml-file.png";
 
 
+// Project Images
+import dashboard from "./dashboard_project.png";
+import reproductor from "./reproductor.png";
+import gifApp from "./gifApp.png";
+import calendar from "./calendarnote.png";
 
 export {
     design,
@@ -61,5 +66,10 @@ export {
     logoC,
     tony,
     whatsapp,
-    mail
+    mail,
+    dashboard,
+    github,
+    reproductor,
+    gifApp,
+    calendar
 };

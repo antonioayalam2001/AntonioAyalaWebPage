@@ -19,7 +19,12 @@ import {
     consulting,
     code,
     whatsapp,
-    mail
+    mail,
+    dashboard,
+    reproductor,
+    gifApp,
+    calendar
+
 } from "../assets";
 
 
@@ -171,5 +176,53 @@ export const services = [
         name:"Team Work",
         desc:"Creation of beautiful and elegant designs suited for your project identity",
         icon: code
+    },
+]
+
+export const projects = [
+    {
+    id: "1",
+    name: "Reproductor de Musica",
+    img: reproductor,
+    link: "https://antonioayalam2001.github.io/ReproductorMusica/",
+    desc: "Reproductor de musica estilo Spotify realizado con el API gratuito de Deezer",
+    icons: [html, css3, javascript],
+    gitUrl : "https://github.com/antonioayalam2001/ReproductorMusica"
+    },
+    {
+        id: "2",
+        name: "GIF APP",
+        img: gifApp,
+        link: "https://reactgifapi.netlify.app/",
+        desc: "Sencilla aplicacion de GIFS, lo cual me ha permitido practicar con el consumo de peticiones.",
+        icons: [html, css3, javascript, react],
+        gitUrl : ""
+    },
+    {
+        id: "3",
+        name: "Pokedex",
+        img: "https://unito.io/wp-content/uploads/2021/08/GitHub-projects-board.png",
+        link: "https://www.google.com",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        icons: [html, css3, javascript, react, nodejs, mongodb],
+        gitUrl : ""
+    },
+    {
+        id: "4",
+        name: "Dashboard",
+        img: dashboard,
+        link: "https://dashboardantonio.netlify.app/",
+        desc: "Dashboard con la implementación de gráficos y diferentes apartados, la versión movil aun necesita algunos arreglos, pero en su mayoría funciona.",
+        icons: [html, css3, javascript, react],
+        gitUrl : "https://github.com/antonioayalam2001/dashboardProject"
+    },
+    {
+        id: "5",
+        name: "Calendario Personal / Colaborativo",
+        img: calendar,
+        link: "https://calendarappantonio.netlify.app/auth/login",
+        desc: "Calendario personal o colaborativo con implementacion de inicio de sesión, modo claro y obscuro",
+        icons: [html, css3, javascript, react, nodejs, mongodb],
+        gitUrl : ""
     },
 ]
