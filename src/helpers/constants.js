@@ -220,7 +220,7 @@ export const projects = [
         id: "5",
         name: "Calendario Personal / Colaborativo",
         img: calendar,
-        link: "https://calendarappantonio.netlify.app/auth/login",
+        link: "https://calendarappantonio.netlify.app",
         desc: "Calendario personal o colaborativo con implementacion de inicio de sesión, modo claro y obscuro",
         icons: [html, css3, javascript, react, nodejs, mongodb],
         gitUrl : ""
