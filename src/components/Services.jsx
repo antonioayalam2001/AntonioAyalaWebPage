@@ -10,15 +10,14 @@ export const Services = () => {
             <div className={` ${layout.sectionInfo}`}>
                 <h2 className={` ${styles.heading2}`}>Services I offer</h2>
                 <p className={` ${styles.paragraph} md:max-w-[100%] md:max-w-[470px] max-w-[100%] mt-6`}>
-                    Since the beginning of my journey as a freelancer and student i have been improving my hard and soft skills, those have allowed me to gain experience in many areas of interest for
-                    me as well as team work and communication.
-                    <br/><br/><br/>
-                    All the time I am trying to be better at what I do and always come with better ideas and improve previous work as well as learn from past
-                    mistakes so those errors can be avoided in future applications, During my time of school I have learned how to interact with people and valorate each one of the persons from a team as
-                    well as adapt myself.
-                    <br/><br/><br/>
-                    I offer a wide range of services which includes: web programming, responsive static websites, react applications, API's creation and consuming as well as programming and teaching
-                    in multiple languages, so get the chance to know me and discover I am the right person to your project...
+                    Desde el inicio de mi aprendizaje como un freelancer y estudiante he estado mejorando mis habilidades tanto duras como blandas, las cuales me han permitido ganar experiencia en muchas areas de interes para mi
+                    asi como el trabajo en equipo y la comunicación.
+                    <br /><br /><br />
+                    Todo el tiempo trato de ser mejor en lo que hago y siempre vengo con mejores ideas y mejoro trabajos anteriores así como aprendo de errores pasados para que estos puedan ser evitados en futuras aplicaciones, durante mi tiempo de escuela he aprendido a interactuar con las personas y valorar a cada uno de los miembros de un equipo así como adaptarme.
+                    a las diferentes situaciones que se presentan en el día a día.
+                    <br /><br /><br />
+                    Ofrezco una amplia variedad de servicios que incluyen: programación web, sitios web estáticos responsivos, aplicaciones react, creación y consumo de API's así como programación y enseñanza
+                    en multiples lenguajes, asi que aprovecha la oportunidad de conocerme y descubre que soy la persona correcta para tu proyecto...
                 </p>
             </div>
 

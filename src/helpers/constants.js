@@ -153,9 +153,9 @@ export const socialMedia = [
 ];
 
 export const values = [
-    {id:"value-1",title:"Future Engineer",value:"Currently in the 7th semester of college"},
-    {id:"value-2",title:"Designer",value:"Graphic Design Technician "},
-    {id:"value-3",title:"Developer",value:"Hard worker"},
+    {id:"value-1",title:"Futuro Ingeniero",value:"Actualmente en el 8vo semestre de la carrera de Ingenieria en Sistemas Computacionales"},
+    {id:"value-2",title:"Diseñador",value:"Técnico en Diseño Gráfico Digital "},
+    {id:"value-3",title:"Desarrollador",value:" Desarrollador Frontend y Backend"},
 ]
 
 export const services = [

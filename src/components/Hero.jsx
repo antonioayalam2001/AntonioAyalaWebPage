@@ -30,12 +30,12 @@ export const Hero = () => {
                 </div>
 
                 <p className={` ${styles.paragraph} max-w-[470px] mt-5`}>
-                    I am Antonio Mora. the most you read about me, the most you will be wanting
-                    me on your team.
-                    Let's give it a try and let me do the best things for you
+                    Soy Jose Antonio, pero todos me dicen Tony, tengo 22 años y soy un desarrollador de software
+                    ¿Tienes un proyecto en mente?
+                    Contactame y hagamoslo realidad.
                     <br/>
                     <span className={"text-gradient font-bold"}>
-                        Freelancer providing solutions and trying to make your life easier.
+                        Desarrollador en busca de brindar soluciones.
                     </span>
                 </p>
             </div>

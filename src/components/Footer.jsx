@@ -9,9 +9,9 @@ export const Footer = () => {
                 <div className={'md:flex-[4] flex flex-col justify-center items-start md:justify-start md:mr-10'}>
                     <img src={logo} alt="tony ayala" className={'w-[266px] h-[72px] object-contain'}/>
                     <p className={` ${styles.paragraph} mt-4 max-w-[310px]`}>
-                        We can do multiple and amazing things together.
-                        Contact me. <br />
-                        Page created with ReactJs
+                        Podemos hacer multiples cosas juntos, ¿Tienes un proyecto en mente? 
+                        Contactame. <br />
+                        Página creada con ReactJs
                     </p>
                 </div>
 
