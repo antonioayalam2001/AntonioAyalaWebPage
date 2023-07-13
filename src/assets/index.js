@@ -29,6 +29,7 @@ import nodejs from "./icons/node-js.png";
 import react from "./icons/react.png";
 import sass from "./icons/sass.png";
 import xmlfile from "./icons/xml-file.png";
+import typescript from "./icons/typescript.png";
 
 
 // Project Images
@@ -36,6 +37,8 @@ import dashboard from "./dashboard_project.png";
 import reproductor from "./reproductor.png";
 import gifApp from "./gifApp.png";
 import calendar from "./calendarnote.png";
+import expenseTracker from "./expenseTracker.png";
+import wordle from "./wordle.png";
 
 export {
     design,
@@ -60,6 +63,7 @@ export {
     mysql,
     nodejs,
     react,
+    typescript,
     sass,
     xmlfile,
     logo,
@@ -71,5 +75,7 @@ export {
     github,
     reproductor,
     gifApp,
-    calendar
+    calendar,
+    expenseTracker,
+    wordle
 };

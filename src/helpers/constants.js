@@ -23,7 +23,10 @@ import {
     dashboard,
     reproductor,
     gifApp,
-    calendar
+    calendar,
+    expenseTracker,
+    typescript,
+    wordle
 
 } from "../assets";
 
@@ -153,59 +156,59 @@ export const socialMedia = [
 ];
 
 export const values = [
-    {id:"value-1",title:"Futuro Ingeniero",value:"Actualmente en el 8vo semestre de la carrera de Ingenieria en Sistemas Computacionales"},
-    {id:"value-2",title:"Diseñador",value:"Técnico en Diseño Gráfico Digital "},
-    {id:"value-3",title:"Desarrollador",value:" Desarrollador Frontend y Backend"},
+    { id: "value-1", title: "Futuro Ingeniero", value: "Actualmente en el 8vo semestre de la carrera de Ingenieria en Sistemas Computacionales" },
+    { id: "value-2", title: "Diseñador", value: "Técnico en Diseño Gráfico Digital " },
+    { id: "value-3", title: "Desarrollador", value: " Desarrollador Frontend y Backend" },
 ]
 
 export const services = [
     {
-        id:"1",
-        name:"Great Designs",
-        desc:"Creation of beautiful and elegant designs suited for your project identity",
-        icon:design
+        id: "1",
+        name: "Great Designs",
+        desc: "Creation of beautiful and elegant designs suited for your project identity",
+        icon: design
     },
     {
-        id:"2",
-        name:"Code",
-        desc:"Creation of beautiful and elegant designs suited for your project identity",
+        id: "2",
+        name: "Code",
+        desc: "Creation of beautiful and elegant designs suited for your project identity",
         icon: consulting
     },
     {
-        id:"3",
-        name:"Team Work",
-        desc:"Creation of beautiful and elegant designs suited for your project identity",
+        id: "3",
+        name: "Team Work",
+        desc: "Creation of beautiful and elegant designs suited for your project identity",
         icon: code
     },
 ]
 
 export const projects = [
     {
-    id: "1",
-    name: "Reproductor de Musica",
-    img: reproductor,
-    link: "https://antonioayalam2001.github.io/ReproductorMusica/",
-    desc: "Reproductor de musica estilo Spotify realizado con el API gratuito de Deezer",
-    icons: [html, css3, javascript],
-    gitUrl : "https://github.com/antonioayalam2001/ReproductorMusica"
+        id: "1",
+        name: "Reproductor de Musica",
+        img: reproductor,
+        link: "https://antonioayalam2001.github.io/ReproductorMusica/",
+        desc: "Reproductor de musica estilo Spotify realizado con el API gratuito de Deezer",
+        icons: [html, css3, javascript],
+        gitUrl: "https://github.com/antonioayalam2001/ReproductorMusica"
     },
     {
         id: "2",
-        name: "GIF APP",
-        img: gifApp,
-        link: "https://reactgifapi.netlify.app/",
-        desc: "Sencilla aplicacion de GIFS, lo cual me ha permitido practicar con el consumo de peticiones.",
-        icons: [html, css3, javascript, react],
-        gitUrl : ""
+        name: "Wordle",
+        img: wordle,
+        link: "",
+        desc: "Clon de Wordle con implementacion de api publica que brinda el concepto de la palabra (solo en Inglés) . Demo pendiente de subir \n Repositorio si disponible",
+        icons: [html, css3, javascript, react, typescript],
+        gitUrl: "https://github.com/antonioayalam2001/Wordle"
     },
     {
         id: "3",
-        name: "Pokedex",
-        img: "https://unito.io/wp-content/uploads/2021/08/GitHub-projects-board.png",
-        link: "https://www.google.com",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-        icons: [html, css3, javascript, react, nodejs, mongodb],
-        gitUrl : ""
+        name: "Expense Tracker",
+        img: expenseTracker,
+        link: "https://expense-tracker-tm.netlify.app/",
+        desc: "Aplicacion para llevar registro de gastos realizados en general o con tarjetas de credito (posee opción de agragar una fecha de corte y calcula con base a esta).",
+        icons: [html, css3, javascript, react],
+        gitUrl: "https://github.com/antonioayalam2001/ExpenseTracker"
     },
     {
         id: "4",
@@ -214,7 +217,7 @@ export const projects = [
         link: "https://dashboardantonio.netlify.app/",
         desc: "Dashboard con la implementación de gráficos y diferentes apartados, la versión movil aun necesita algunos arreglos, pero en su mayoría funciona.",
         icons: [html, css3, javascript, react],
-        gitUrl : "https://github.com/antonioayalam2001/dashboardProject"
+        gitUrl: "https://github.com/antonioayalam2001/dashboardProject"
     },
     {
         id: "5",
@@ -223,6 +226,15 @@ export const projects = [
         link: "https://calendarappantonio.netlify.app",
         desc: "Calendario personal o colaborativo con implementacion de inicio de sesión, modo claro y obscuro",
         icons: [html, css3, javascript, react, nodejs, mongodb],
-        gitUrl : ""
+        gitUrl: ""
     },
+    {
+        id: "6",
+        name: "GIF APP",
+        img: gifApp,
+        link: "https://reactgifapi.netlify.app/",
+        desc: "Sencilla aplicacion de GIFS, lo cual me ha permitido practicar con el consumo de peticiones.",
+        icons: [html, css3, javascript, react],
+        gitUrl: ""
+    }
 ]
