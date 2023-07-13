@@ -196,7 +196,7 @@ export const projects = [
         id: "2",
         name: "Wordle",
         img: wordle,
-        link: "",
+        link: "https://wordle-antoiom.netlify.app/",
         desc: "Clon de Wordle con implementacion de api publica que brinda el concepto de la palabra (solo en Inglés) . Demo pendiente de subir \n Repositorio si disponible",
         icons: [html, css3, javascript, react, typescript],
         gitUrl: "https://github.com/antonioayalam2001/Wordle"
