@@ -242,9 +242,9 @@ export const projects = [
         id: "7",
         name: "Movie Site",
         img: moviesSite,
-        link: "https://reactgifapi.netlify.app/",
+        link: "https://antonioayalam2001.github.io/MovieSite/",
         desc: "Landing page para una aplicacion de streaming.",
         icons: [html, css3, javascript],
-        gitUrl: ""
+        gitUrl: "https://github.com/antonioayalam2001/MovieSite"
     }
 ]
