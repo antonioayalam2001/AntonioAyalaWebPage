@@ -26,7 +26,8 @@ import {
     calendar,
     expenseTracker,
     typescript,
-    wordle
+    wordle,
+    moviesSite
 
 } from "../assets";
 
@@ -235,6 +236,15 @@ export const projects = [
         link: "https://reactgifapi.netlify.app/",
         desc: "Sencilla aplicacion de GIFS, lo cual me ha permitido practicar con el consumo de peticiones.",
         icons: [html, css3, javascript, react],
+        gitUrl: ""
+    },
+        {
+        id: "7",
+        name: "Movie Site",
+        img: moviesSite,
+        link: "https://reactgifapi.netlify.app/",
+        desc: "Landing page para una aplicacion de streaming.",
+        icons: [html, css3, javascript],
         gitUrl: ""
     }
 ]

@@ -39,6 +39,7 @@ import gifApp from "./gifApp.png";
 import calendar from "./calendarnote.png";
 import expenseTracker from "./expenseTracker.png";
 import wordle from "./wordle.png";
+import moviesSite from "./movieSite.png";
 
 export {
     design,
@@ -77,5 +78,6 @@ export {
     gifApp,
     calendar,
     expenseTracker,
-    wordle
+    wordle,
+    moviesSite
 };
