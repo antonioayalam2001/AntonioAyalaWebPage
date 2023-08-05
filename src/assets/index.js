@@ -40,6 +40,7 @@ import calendar from "./calendarnote.png";
 import expenseTracker from "./expenseTracker.png";
 import wordle from "./wordle.png";
 import moviesSite from "./movieSite.png";
+import yourSite from "./yourSite.png";
 
 export {
     design,
@@ -79,5 +80,6 @@ export {
     calendar,
     expenseTracker,
     wordle,
-    moviesSite
+    moviesSite,
+    yourSite
 };

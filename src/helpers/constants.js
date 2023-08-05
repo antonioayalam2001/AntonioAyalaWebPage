@@ -1,34 +1,31 @@
 import {
-    facebook,
-    instagram,
-    linkedin,
-    twitter,
+    calendar,
+    code,
+    consulting,
     css3,
+    dashboard,
+    design,
+    expenseTracker,
+    facebook,
+    gifApp,
     git,
     html,
+    instagram,
     java,
     javascript,
+    mail,
     mongodb,
+    moviesSite,
     mysql,
     nodejs,
     react,
-    sass,
-    xmlfile,
-    logo,
-    design,
-    consulting,
-    code,
-    whatsapp,
-    mail,
-    dashboard,
     reproductor,
-    gifApp,
-    calendar,
-    expenseTracker,
+    sass,
     typescript,
+    whatsapp,
     wordle,
-    moviesSite
-
+    xmlfile,
+    yourSite
 } from "../assets";
 
 
@@ -227,7 +224,7 @@ export const projects = [
         link: "https://calendarappantonio.netlify.app",
         desc: "Calendario personal o colaborativo con implementacion de inicio de sesión, modo claro y obscuro",
         icons: [html, css3, javascript, react, nodejs, mongodb],
-        gitUrl: ""
+        gitUrl: "https://github.com/antonioayalam2001/ReactCurso/tree/main/08MERNApp"
     },
     {
         id: "6",
@@ -236,9 +233,9 @@ export const projects = [
         link: "https://reactgifapi.netlify.app/",
         desc: "Sencilla aplicacion de GIFS, lo cual me ha permitido practicar con el consumo de peticiones.",
         icons: [html, css3, javascript, react],
-        gitUrl: ""
+        gitUrl: "https://github.com/antonioayalam2001/ReactCurso/tree/main/04-git-expert-app"
     },
-        {
+    {
         id: "7",
         name: "Movie Site",
         img: moviesSite,
@@ -246,5 +243,14 @@ export const projects = [
         desc: "Landing page para una aplicacion de streaming.",
         icons: [html, css3, javascript],
         gitUrl: "https://github.com/antonioayalam2001/MovieSite"
+    },
+    {
+        id: "8",
+        name: "Your Space",
+        img: yourSite,
+        link: "https://yoursiteblog.netlify.app/",
+        desc: "Página web de blogs, para compartir noticias, gustos y opiniones.",
+        icons: [html, css3, javascript, react, nodejs, mysql],
+        gitUrl: "https://github.com/antonioayalam2001/YourSpace/tree/main"
     }
 ]
