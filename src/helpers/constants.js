@@ -97,6 +97,12 @@ export const technologies =
             icon: xmlfile,
             style: "shadow-yellow-100"
         },
+        {
+            id: "TypeScript",
+            name: "TypeScript",
+            icon: typescript,
+            style: "shadow-blue-800"
+        }
 
     ]
 
