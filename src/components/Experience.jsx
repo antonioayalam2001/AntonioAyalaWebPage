@@ -42,7 +42,7 @@ export const Experience = () => {
 
     return (
         <section id={'Technologies'} className={`${styles.paddingY}`}>
-            <h2 className={` ${styles.heading2} mb-20`}>Experience With</h2>
+            <h2 className={` ${styles.heading2} mb-20`}>Conocimientos y experiencia con:</h2>
             <div ref={techsRefContainer} className={'grid grid-cols-2 sm:grid-cols-3 justify-center  justify-items-center gap-4 '}>
 
                 {technologies.map(technology => (

@@ -30,6 +30,7 @@ import react from "./icons/react.png";
 import sass from "./icons/sass.png";
 import xmlfile from "./icons/xml-file.png";
 import typescript from "./icons/typescript.png";
+import astro from "./icons/astro.png";
 
 
 // Project Images
@@ -41,6 +42,7 @@ import expenseTracker from "./expenseTracker.png";
 import wordle from "./wordle.png";
 import moviesSite from "./movieSite.png";
 import yourSite from "./yourSite.png";
+import astroPortfolio from "./astroLandingPage.png";
 
 export {
     design,
@@ -57,6 +59,7 @@ export {
     linkedin,
     twitter,
     css3,
+    astro,
     git,
     html,
     java,
@@ -81,5 +84,6 @@ export {
     expenseTracker,
     wordle,
     moviesSite,
-    yourSite
+    yourSite,
+    astroPortfolio
 };

@@ -10,7 +10,7 @@ export const Projects = () => {
   return (
     <section id={"Projects"} className={`bg-primary ${styles.paddingY}`}>
       <h2 className={`text-4xl text-center text-white font-bold mb-20`}>
-        Projects
+        Algunos proyectos
       </h2>
       <div
         className={

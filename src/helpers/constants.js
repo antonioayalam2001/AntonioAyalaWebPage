@@ -1,4 +1,6 @@
 import {
+    astro,
+    astroPortfolio,
     calendar,
     code,
     consulting,
@@ -102,6 +104,12 @@ export const technologies =
             name: "TypeScript",
             icon: typescript,
             style: "shadow-blue-800"
+        },
+        {
+            id: "Astro",
+            name: "Astro",
+            icon: astro,
+            style: "shadow-purple-300 "
         }
 
     ]
@@ -258,5 +266,14 @@ export const projects = [
         desc: "Página web de blogs, para compartir noticias, gustos y opiniones.",
         icons: [html, css3, javascript, react, nodejs, mysql],
         gitUrl: "https://github.com/antonioayalam2001/YourSpace/tree/main"
+    },
+    {
+        id: "9",
+        name: "Astro Portfolio",
+        img: astroPortfolio,
+        link: "https://tonylandingastro.netlify.app/",
+        desc: "Portafolio personal realizado con Astro e integración de componentes de React",
+        icons: [html, css3, javascript, react, astro],
+        gitUrl: "https://github.com/antonioayalam2001/Astro"
     }
 ]

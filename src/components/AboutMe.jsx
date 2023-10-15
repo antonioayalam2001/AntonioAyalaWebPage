@@ -12,7 +12,7 @@ export const AboutMe = () => {
             </div>
             {/*    Right Section*/}
             <div className={'flex-1 flex flex-col text-white  justify-around items-center '}>
-                <h2 className={` ${styles.heading2}`}>About Me</h2>
+                <h2 className={` ${styles.heading2}`}>Un poco de mi...</h2>
                 <p className={'font-glory font-normal text-dimWhite text-[18px] leading-[30.8px]'}>
                     
                     Mi nombre es Jose Antonio Mora Ayala, nací en el estado de México y actualmente estoy cursando mi ultimo año de universidad en la carrera de ingeniería en sistemas computacionales.

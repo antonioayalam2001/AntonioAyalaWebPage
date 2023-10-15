@@ -8,7 +8,7 @@ export const Services = () => {
 
             {/*Left section (Info part)*/}
             <div className={` ${layout.sectionInfo}`}>
-                <h2 className={` ${styles.heading2}`}>Services I offer</h2>
+                <h2 className={` ${styles.heading2}`}>Mi aportación</h2>
                 <p className={` ${styles.paragraph} md:max-w-[100%] md:max-w-[470px] max-w-[100%] mt-6`}>
                     Desde el inicio de mi aprendizaje como un freelancer y estudiante he estado mejorando mis habilidades tanto duras como blandas, las cuales me han permitido ganar experiencia en muchas areas de interes para mi
                     asi como el trabajo en equipo y la comunicación.
