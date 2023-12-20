@@ -118,19 +118,19 @@ export const technologies =
 export const navLinks = [
     {
         id: "home",
-        title: "Home",
+        title: "Inicio",
     },
     {
         id: "About Me",
-        title: "About Me",
+        title: "Acerca de mi",
     },
     {
         id: "Services",
-        title: "Services",
+        title: "Servicios",
     },
     {
         id: "Technologies",
-        title: "Technologies",
+        title: "Tecnologias",
     },
 ];
 
