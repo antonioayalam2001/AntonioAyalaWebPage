@@ -168,7 +168,7 @@ export const socialMedia = [
 ];
 
 export const values = [
-    { id: "value-1", title: "Futuro Ingeniero", value: "Actualmente en el 8vo semestre de la carrera de Ingenieria en Sistemas Computacionales" },
+    { id: "value-1", title: "Futuro Ingeniero", value: "Actualmente en último semestre de la carrera de Ingenieria en Sistemas Computacionales" },
     { id: "value-2", title: "Diseñador", value: "Técnico en Diseño Gráfico Digital " },
     { id: "value-3", title: "Desarrollador", value: " Desarrollador Frontend y Backend" },
 ]
@@ -176,19 +176,19 @@ export const values = [
 export const services = [
     {
         id: "1",
-        name: "Great Designs",
+        name: "Disñeo",
         desc: "Creation of beautiful and elegant designs suited for your project identity",
         icon: design
     },
     {
         id: "2",
-        name: "Code",
+        name: "Código",
         desc: "Creation of beautiful and elegant designs suited for your project identity",
         icon: consulting
     },
     {
         id: "3",
-        name: "Team Work",
+        name: "Trabajo en Equipo",
         desc: "Creation of beautiful and elegant designs suited for your project identity",
         icon: code
     },

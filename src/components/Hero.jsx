@@ -18,10 +18,10 @@ export const Hero = () => {
                 </div>
 
                 <div className={`flex flex-row justify-between items-center w-full`}>
-                    <h1 className={'text-white font-semibold ss:text-[4rem] text-[3rem] ss:leading-[6rem]'}>Mora
-                        Ayala
-                        <br className={'sm:block hidden'}/> {" "}
-                        <span className={` font-glory text-gradient font-semibold`}>Jose Antonio</span>
+                    <h1 className={'text-white font-semibold ss:text-[4rem] text-[3rem] ss:leading-[5rem]'}>Mora
+                        Ayala <br className={'sm:block hidden'}/> {" "}
+                        <span className={` font-glory text-gradient font-semibold`}>Jose Antonio</span> <br />
+                        <span className={` font-glory text-white font-semibold italic text-[2.6rem]`}>Desarrollador Web</span>
                     </h1>
 
                     <div className={'ss:flex hidden md:mr-4 mr-0'}>
@@ -30,9 +30,9 @@ export const Hero = () => {
                 </div>
 
                 <p className={` ${styles.paragraph} max-w-[470px] mt-5`}>
-                    Soy Jose Antonio, pero todos me dicen Tony, tengo 22 años y soy un desarrollador de software
-                    ¿Tienes un proyecto en mente?
-                    Contactame y hagamoslo realidad.
+                    Soy Jose Antonio, pero todos me llaman Tony, tengo 22 años y soy un Desarrollador Web
+                    <span className="italic text-golden font-semibold"> ¿Tienes un proyecto en mente? 
+                    Contactame y hagamoslo realidad. </span>
                     <br/>
                     <span className={"text-gradient font-bold"}>
                         Desarrollador en busca de brindar soluciones.

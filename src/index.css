@@ -279,8 +279,8 @@
 
 .project_container:hover .container .grid_container {
     grid-template-rows: 1fr;
-    border-radius: 10px;
-    border: 2px solid #fff;
+    border-radius: 0px 0px 10px 10px;
+    border: 2px solid #dadada;
     border-top: none;
 }
 
@@ -326,3 +326,4 @@
         opacity: 1;
     }
 }
+
