@@ -121,7 +121,7 @@ export const navLinks = [
         title: "Inicio",
     },
     {
-        id: "About Me",
+        id: "about",
         title: "Acerca de mi",
     },
     {

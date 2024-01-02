@@ -3,15 +3,15 @@ import styles from "../helpers/styleTailwind.js";
 
 export const AboutMe = () => {
     return (
-        <section id={`About Me`} className={'flex flex-col-reverse md:flex-row p-4'}>
+        <section id={`about`} className={'flex flex-col-reverse md:flex-row p-4'}>
             {/*    left section*/}
             <div className={'flex-1 mt-10 flex justify-center flex-col items-center '}>
                 <figure className={' grid items-center personal__image w-[80%]'}>
-                    <img src={tony} className={' h-[100%] md:h-[90%] '} alt="Antonio Mora img"/>
+                    <img src={tony} className={' h-[90%] md:h-[90%] '} alt="Antonio Mora img"/>
                 </figure>
             </div>
             {/*    Right Section*/}
-            <div className={'flex-1 flex flex-col text-white  justify-around items-center '}>
+            <div className={'flex-1 flex flex-col text-white  justify-center items-center '}>
                 <h2 className={` ${styles.heading2}`}>Un poco de mi...</h2>
                 <p className={'font-glory font-normal text-dimWhite text-[20px] leading-[30.8px]'}>
                     

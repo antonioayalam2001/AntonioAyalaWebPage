@@ -194,7 +194,7 @@
 /*About Me section*/
 
 .personal__image img {
-    clip-path: circle(40% at 55%45%);
+    clip-path: circle(40% at 50%45%);
     scale: 0.9;
 }
 

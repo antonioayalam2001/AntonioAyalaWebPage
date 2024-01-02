@@ -13,7 +13,7 @@ import logoC from "./LogoCompleto.png";
 import design from "./design.png";
 import consulting from "./consulting.png";
 import code from "./code.png";
-import tony from "./tony.jpg";
+import tony from "./tony2.jpg";
 import whatsapp from "./whatsapp.svg";
 import mail from "./mail.svg";
 import github from "./github.png"
@@ -31,6 +31,8 @@ import sass from "./icons/sass.png";
 import xmlfile from "./icons/xml-file.png";
 import typescript from "./icons/typescript.png";
 import astro from "./icons/astro.png";
+import mexico from './icons/mexico.svg'
+import us from './icons/us.svg'
 
 
 // Project Images
@@ -85,5 +87,7 @@ export {
     wordle,
     moviesSite,
     yourSite,
-    astroPortfolio
+    astroPortfolio,
+    mexico,
+    us
 };

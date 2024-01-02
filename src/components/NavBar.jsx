@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, logo, menu } from '../assets/';
+import { close, logo, menu, mexico, us } from '../assets/';
 import { navLinks } from "../helpers/constants.js";
 
 export const NavBar = () => {
@@ -16,7 +16,7 @@ export const NavBar = () => {
 
 
             {/*Desktop View*/ }
-            <ul className={ 'flex list-none sm:flex hidden justify-end items-center flex-1 z-50' }>
+            <ul className={ 'list-none sm:flex hidden justify-end items-center flex-1 z-50' }>
                 { navLinks.map(({ id, title }, index) => (
                     <li key={ id }
                         className={ ` font-glory text-white ${index === navLinks.length ? "mr-0" : "mr-10"}` }>
@@ -25,7 +25,16 @@ export const NavBar = () => {
                         </a>
                     </li>
                 )) }
-                <li><a href="./MoraAyalaCurriculumV.pdf" download className={ 'bg-gradient-to-r from-pink-300 to-pink-200 text-white px-4 py-2 rounded-md' }>Curriculum</a></li>
+                <li><a href="./MoraAyalaCurriculumVEs.pdf" download className={ 'bg-gradient-to-r from-zinc-500 to-zinc-800 text-white px-4 py-2 rounded-md hover:bg-gradient-to-b transition-all mr-4 ' }>Curriculum (
+                    <img src={ mexico }
+                        alt="Spanish"
+                        className={ 'w-[20px] h-[20px] inline-block' } />
+                    )</a></li>
+                <li><a href="./MoraAyalaCurriculumVEn.pdf" download className={ 'bg-gradient-to-r from-zinc-500 to-zinc-800 text-white px-4 py-2 rounded-md hover:bg-gradient-to-b transition-all ' }>Curriculum (
+                    <img src={ us }
+                        alt="english"
+                        className={ 'w-[20px] h-[20px] inline-block' } />
+                    )</a></li>
             </ul>
 
             {/*    Mobile devices View*/ }
@@ -37,8 +46,8 @@ export const NavBar = () => {
                     className={ "w-[28px] h-[28px] object-contain cursor-pointer" }
                 />
                 <div
-                    className={ ` ${toggle ? 'flex flex-col' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[150px] rounded-xl sidebar ` }>
-                    <ul className={ 'flex list-none flex-col justify-end items-center flex-1 gap-3' }>
+                    className={ ` ${toggle ? 'flex flex-col' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[150px] rounded-xl sidebar  ` }>
+                    <ul className={ 'flex list-none flex-col justify-end items-center flex-1 gap-4' }>
                         { navLinks.map(({ id, title }, index) => (
                             <li key={ id }
                                 className={ `font-glory text-white cursor-pointer ${index === navLinks.length ? "mb-0" : "mb-4"}` }>
@@ -47,7 +56,16 @@ export const NavBar = () => {
                                 </a>
                             </li>
                         )) }
-                        <li> <a href="./MoraAyalaCurriculumV.pdf" download className={ 'bg-gradient-to-r from-pink-300 to-pink-200 text-white px-4 py-2 rounded-md' }>Curriculum</a></li>
+                        <li> <a href="./MoraAyalaCurriculumVEs.pdf" download className={ 'bg-gradient-to-r from-zinc-500 to-zinc-800 text-white px-4 py-2 rounded-md  ' }>Curriculum (
+                            <img src={ mexico }
+                                alt="espanol"
+                                className={ 'w-[20px] h-[20px] inline-block' } />
+                            )</a></li>
+                        <li className="mt-4"> <a href="./MoraAyalaCurriculumVEn.pdf" download className={ 'bg-gradient-to-r from-zinc-500 to-zinc-800 text-white px-4 py-2 rounded-md mt-4 ' }>Curriculum (
+                            <img src={ us }
+                                alt="english"
+                                className={ 'w-[20px] h-[20px] inline-block' } />
+                            )</a></li>
                     </ul>
                 </div>
             </div>
